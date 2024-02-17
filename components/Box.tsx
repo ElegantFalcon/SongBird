@@ -15,7 +15,10 @@ const Box:React.FC<BoxProps> = ({
         bg-neutral-900
         rounded-lg
         h-fit
-        w-full`)}>
+        w-full
+        `,
+        className
+        )}>
             {children}
         </div>
     );
