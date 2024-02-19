@@ -29,12 +29,23 @@ export default function Home() {
           gap-3
           mt-4
           ">
-            <ListItem/>
+            <ListItem
+            image="/images/liked.png"
+            name="Liked Songs"
+            href="liked"
+            />
 
           </div>
-
         </div>
       </Header>
+      <div className="mt-2 mb-7 px-6">
+        <div className="flex justify-between items-center">
+          <h1>Newest songs</h1>
+        </div>
+        <div>
+          List of Songs!
+        </div>
+      </div>
     </div>
   );
 }
